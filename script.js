@@ -15,7 +15,7 @@ document.getElementById("bottone").addEventListener("click", function() {
         document.getElementById("modal").style.display = "block";
     } else {
         document.getElementById("risultato").textContent = ""; 
-        document.getElementById("avviso").textContent = "il carattere inserito non è un numero valido."; 
+        document.getElementById("avviso").textContent = "non barare. Inserisci un carattere numerico valido"; 
         document.getElementById("modal").style.display = "block";
     }
 });
